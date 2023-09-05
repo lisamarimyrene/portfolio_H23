@@ -5,7 +5,7 @@ export default function Projectpage() {
             <section>
                 <div></div>
                 <div></div>
-                <h1 className="font-anton text-5xl">It's Lisa</h1>
+                <h1 className="">It's Lisa</h1>
             </section>
             <section>
 
