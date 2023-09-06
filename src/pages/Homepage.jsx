@@ -7,17 +7,17 @@ export default function Homepage() {
         <div className="min-h-screen">
             <section className="bg-gray-dark text-gray-light relative h-screen">
                 <nav>
-                    <ul className="flex flew-row absolute end-5 m-5 w-28 justify-between">
+                    <ul className="flex flew-row absolute end-5 mr-12 mt-6 w-28 justify-between">
                         <li>skills</li>
                         <li>contact</li>
                     </ul>
                 </nav>
 
-                <div className="flex justify-between flex-col pt-24">
-                    <p className="flex justify-start m-8">Web Developer</p>
-                    <img className="w-1/3 rotate-45 flex justify-center" src={three_colored_spheres} alt="Three colored spheres." />
-                    <div className="flex justify-end m-8">
-                        <ul>
+                <div className="flex items-center flex-row pt-24">
+                    <p className="flex justify-start ml-12 self-start text-lg">Web Developer</p>
+                    <img className="w-1/5 rotate-45 flex mx-auto" src={three_colored_spheres} alt="Three colored spheres." />
+                    <div className="flex justify-end mr-12 self-end text-lg">
+                        <ul className="text-right">
                             <li>Front-End</li>
                             <li>Back-End</li>
                             <li>Design</li>
