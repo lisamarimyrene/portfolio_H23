@@ -1,6 +1,6 @@
 .logo-name {
-    font-size: 33vw;
+    font-size: 32vw;
     white-space: nowrap;
     overflow: hidden;
-    top: 43.3vh;
+    /* line-height: 27rem; */
 }
