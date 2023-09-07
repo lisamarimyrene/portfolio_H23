@@ -1,0 +1,26 @@
+[
+    {
+        "image": "workshop",
+        "title": "Workshop Booking Application"
+    },
+    {
+        "image": "tabletennisleague",
+        "title": "Table Tennis League"
+    },
+    {
+        "image": "accessibility",
+        "title": "Climbing Magazine"
+    },
+    {
+        "image": "ecommerce",
+        "title": "E-Commerce PHP"
+    },
+    {
+        "image": "vcardparser",
+        "title": "vCard Parser Python"
+    },
+    {
+        "image": "scrollytelling",
+        "title": "Scrollytelling"
+    }
+]
