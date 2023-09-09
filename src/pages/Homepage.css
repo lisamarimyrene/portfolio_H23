@@ -7,3 +7,48 @@
 /* .bg-image {
     background-image: url('../assets/noise.png');
 } */
+.webdev {
+    animation-name: colorChange2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.l1 {
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+.l2 {
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+
+}
+.l3 {
+    animation-name: colorChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+
+}
+.l4 {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+}
+
+@keyframes colorChange {
+    0%   {color: #EAE4F0;}
+    50%   {color: #FF8B71;}
+    100% {color: #EAE4F0;}
+  }
+
+  @keyframes colorChange2 {
+    0%   {color: #EAE4F0;}
+    50%   {color: #ffbd71;}
+    100% {color: #EAE4F0;}
+  }

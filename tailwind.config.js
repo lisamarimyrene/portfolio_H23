@@ -17,10 +17,15 @@ export default {
           medium_dark: '#686768',
           medium: '#ABABAB',
           medium_light: '#C8C8C9',
-          light: '#E5E5E6',
+          light: '#EAE4F0',
         },
         pink: '#FFB1CB',
-        purple: '#453D55'
+        purple: '#453D55',
+        purple_light: '#594F6B',
+        purple_lighter: '#A09BAA',
+        orange: '#FF8B71',
+        yellow: '#F8D8A8',
+        nude: '#E9C8D3'
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
