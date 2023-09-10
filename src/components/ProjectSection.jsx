@@ -54,7 +54,7 @@ export const ProjectSection = () => {
                         </svg></a>
                     </div>
                 </div>
-                <img className="w-1/5 md:block hidden" src={three_gradient_spheres} alt="Three gradiend spheres." />
+                <img className="w-1/5 md:block hidden" src={three_gradient_spheres} alt="Three gradiend spheres" />
             </div>
             <div className="z-0 w-screen h-px bg-gray-medium_light absolute bottom-16"></div>
             <p className="text-gray-medium left-1/2 transform -translate-x-1/2 absolute bottom-5">2023</p>
