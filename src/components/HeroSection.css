@@ -45,10 +45,14 @@
     0%   {color: #EAE4F0;}
     50%   {color: #FF8B71;}
     100% {color: #EAE4F0;}
-  }
+}
 
   @keyframes colorChange2 {
     0%   {color: #EAE4F0;}
     50%   {color: #ffbd71;}
     100% {color: #EAE4F0;}
-  }
+}
+
+.path1:hover {
+    fill:#EAE4F0;
+}

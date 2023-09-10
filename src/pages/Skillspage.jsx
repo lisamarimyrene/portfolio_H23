@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar"
+import { Link } from "react-router-dom"
 
 export default function Skillspage() {
 
@@ -33,21 +34,21 @@ export default function Skillspage() {
         <div className="bg-gray-light">
             <Navbar />
 
-            <div className="z-0 inset-y-0 w-px bg-gray-medium_light absolute left-4 md:left-8"></div>
+            {/* <div className="z-0 inset-y-0 w-px bg-gray-medium_light absolute left-4 md:left-8"></div>
             <div className="z-0 absolute inset-y-0 left-1/2 w-px bg-gray-medium_light transform -translate-x-1/2 top-0 bottom-0"></div>
-            <div className="z-0 inset-y-0 w-px bg-gray-medium_light absolute right-4 md:right-8"></div>
+            <div className="z-0 inset-y-0 w-px bg-gray-medium_light absolute right-4 md:right-8"></div> */}
 
-            <section className=" relative w-screen overflow-hidden px-12 md:px-20 pb-28 md:pb-0">
-                <div className="flex flex-col md:flex-row justify-around">
+            <section className="w-screen overflow-hidden px-12 md:px-20 pb-16 md:pb-20">
+                <div className="flex flex-col md:flex-row justify-around md:pt-16">
                     <div className="md:w-[30%] pt-16 md:pt-20">
-                        <h2 className="text-purple uppercase md:text-3xl text-2xl font-anton">Technologies</h2>
+                        <h2 className="text-purple uppercase text-3xl font-anton">Technologies</h2>
                         <p className="py-5 pb-10">I have learned several technologies throughout my studies and on my own. I am always eager to explore new languages and technologies, and can't wait to develop my skills and knowledge further.</p>
                         <div className="flex flex-wrap">
                             {technologiesArray.map(img => <img className="w-12 md:w-14 m-3 md:m-4" src={img} alt="dev icon" />)}
                         </div>
                     </div>
                     <div className="md:w-[30%] pt-20">
-                        <h2 className="text-purple uppercase md:text-3xl text-2xl font-anton">Programs</h2>
+                        <h2 className="text-purple uppercase text-3xl font-anton">Programs</h2>
                         <p className="pt-5 pb-10">When developing, I'm using VSCode and several other tools. Figma is a program I enjoy alot for creating lo-fi and hi-fi wireframes of my projects. When working in teams, Miro is a great tool for brainstorming ideas and such.</p>
                         <div className="flex flex-wrap">
                             {programsArray.map(img => <img className="w-12 md:w-14 m-3 md:m-4" src={img} alt="dev icon" />)}
@@ -55,8 +56,9 @@ export default function Skillspage() {
                     </div>
                 </div>
             </section>
+            <Link className="px-12 md:px-52 pb-20 text-purple hover:text-purple_lighter text-md font-medium text-blue-darker uppercase" to="/">← Back to homepage</Link>
 
-            <div className="z-0 w-screen h-px bg-gray-medium_light absolute bottom-[-23rem] sm:bottom-[-23rem] md:bottom-3"></div>
+            {/* <div className="z-0 w-screen h-px bg-gray-medium_light absolute bottom-[-24rem] md:bottom-12"></div> */}
         </div>
     )
 }
