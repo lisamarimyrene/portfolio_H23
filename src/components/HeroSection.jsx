@@ -1,5 +1,6 @@
 import "./HeroSection.css"
 import three_colored_spheres from "../assets/three_colored_spheres.png"
+import { Link } from "react-router-dom"
 
 export const HeroSection = () => {
     return (
@@ -10,8 +11,8 @@ export const HeroSection = () => {
             <div className="z-0 h-screen w-px bg-purple_light absolute right-4 md:right-8"></div>
             <nav>
                 <ul className="flex flew-row absolute end-5 mr-6 md:mr-12 mt-4 w-28 justify-between text-pink">
-                    <li>skills</li>
-                    <li>contact</li>
+                    <Link to="/skills"><li className="hover:text-gray-light">skills</li></Link>
+                    <a href="mailto:lisammyrene@outlook.com"><li className="hover:text-gray-light">contact</li></a>
                 </ul>
             </nav>
 

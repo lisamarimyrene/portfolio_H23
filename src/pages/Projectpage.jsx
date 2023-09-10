@@ -1,6 +1,7 @@
 
-import { useParams } from "react-router-dom"
-import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom"
+import { useEffect, useState } from "react"
+import { Navbar } from "../components/Navbar";
 
 export default function Projectpage() {
 
@@ -35,12 +36,23 @@ export default function Projectpage() {
     const { title, keywords, description, link, image } = projectData;
 
     return (
-        <div className="w-fit flex flex-col justify-center items-center text-left bg-white-light min-h-screen text-white-darker pt-36 md:pt-48">
-            <h1 className="leading-tight md:w-2/4 text-center md:text-5xl text-3xl text-blue-darker mb-8 font-helvetica font-semibold">{title}</h1>
-            <p className="w-3/4 md:w-full text-center"><i>{keywords}</i></p>
-            <a className="mt-8 text-lg md:text-lg font-medium text-blue-darker hover:text-blue-primary " href={link}>Link to GitHub repo</a>
-            <p className="my-12 md:my-14 w-3/4 md:w-2/4">{description}</p>
-            <img className="w-3/4 md:w-1/2 mb-28" src={`../project_img/${image}.png`} alt="Project image." />
+        <div className="bg-gray-light md:h-screen overflow-hidden">
+            <Navbar />
+            <div className="z-0 inset-y-0 h-screen w-px bg-gray-medium_light absolute left-4 md:left-8"></div>
+            <div className="z-0 absolute h-screen inset-y-0 left-1/2 w-px bg-gray-medium_light transform -translate-x-1/2"></div>
+            <div className="z-0 inset-y-0 h-screen w-px bg-gray-medium_light absolute right-4 md:right-8"></div>
+            
+            <section className="px-12 md:px-20 pt-12 md:pt-16 pb-[8rem] md:pb-0 bg-gray-light">    
+                <h1 className="z-10 text-purple uppercase md:text-4xl text-3xl text-blue-darker font-anton">{title}</h1>
+                <p className="z-10 text-purple_light my-6"><i>{keywords}</i></p>
+                <Link className="z-10 text-purple hover:text-purple_lighter mt-8 text-md font-medium text-blue-darker hover:text-blue-primary uppercase" to={link}>GitHub Repository →</Link>
+                <div className="z-10 h-fit md:flex md:flex-row md:justify-between my-12 md:my-0">
+                    <p className="md:w-[45%] mb-12 md:mb-0 text-justify text-gray-dark ">{description}</p>
+                    <img className="z-10 mb-14 md:w-[45%]" src={`../project_img/${image}.png`} alt="Project image." />
+                </div>
+                <Link className="text-purple hover:text-purple_lighter mt-8 text-md font-medium text-blue-darker uppercase" to="/">← Back to all projects</Link>
+            </section>
+            <div className="z-0 w-screen h-px bg-gray-medium_light absolute bottom-[-15rem] sm:bottom-[-12rem] md:bottom-16"></div>
         </div>
     )
 }
