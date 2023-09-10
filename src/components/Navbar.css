@@ -1,0 +1,13 @@
+.its-lisa {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    0%   {color: #EAE4F0;}
+    25%   {color: #FF8B71;}
+    50% {color: #F8D8A8;}
+    75% {color: #FFB1CB;}
+    100% {color: #EAE4F0;}
+  }
