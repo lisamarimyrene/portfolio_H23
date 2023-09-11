@@ -10,11 +10,11 @@ export const Navbar = () => {
             <div className="z-0 h-full w-px bg-purple_light absolute right-4 md:right-8"></div>
 
             <nav className="w-[80%] md:w-[90%] flex flex-row justify-between items-center">
-                <Link to="/"><h2 className="its-lisa z-100 font-seymour tracking-tight ml-4 md:ml-4 text-xl md:text-pink text-gray-light w-8 md:w-fit uppercase leading-4">It’s Lisa</h2></Link>
+                <Link to="/"><h2 className="its-lisa z-100 font-seymour tracking-tight ml-4 md:ml-4 text-xl md:text-pink hover:text-gray-light text-gray-light w-8 md:w-fit uppercase leading-4">It’s Lisa</h2></Link>
                 <ul className="flex flex-row w-40 justify-between items-center text-pink">
-                    <Link to="/"><li>home</li></Link>
-                    <Link to="/skills"><li>skills</li></Link>
-                    <a href="mailto:lisammyrene@outlook.com"><li>contact</li></a>
+                    <Link className="hover:text-gray-light" to="/"><li>home</li></Link>
+                    <Link className="hover:text-gray-light" to="/skills"><li>skills</li></Link>
+                    <a  className="hover:text-gray-light" href="mailto:lisammyrene@outlook.com"><li>contact</li></a>
                 </ul>
             </nav>
         </section>
