@@ -45,7 +45,7 @@ export default function Projectpage() {
 
             <section className="flex flex-col md:flex-row justify-between w-screen px-12 md:px-32 pt-12 md:pt-24 md:pb-20">
                 <div className="md:w-[45%]">
-                    <h1 className="z-10 text-purple uppercase md:text-4xl text-3xl text-blue-darker font-anton">{title}</h1>
+                    <h1 className="z-10 text-purple text-blue-darker uppercase md:text-2xl tracking-tight font-seymour text-lg leading-6">{title}</h1>
                     <p className="z-10 text-purple_light my-6"><i>{keywords}</i></p>
                     <Link className=" z-10 text-purple hover:text-purple_lighter text-md font-medium text-blue-darker hover:text-blue-primary uppercase" to={link}>GitHub Repository →</Link>
                     <p className="mb-12 mt-8 md:mb-0 text-justify text-gray-dark ">{description}</p>
