@@ -1,7 +1,6 @@
 import { Project } from "./Project"
 import { useState, useEffect } from "react"
-import glass_spiral from "../assets/glass_spiral.png"
-import three_gradient_spheres from "../assets/three_gradient_spheres.png"
+import glass_spiral from "../assets/glass_spiral.webp"
 
 export const ProjectSection = () => {
     const [projects, setProjects] = useState()

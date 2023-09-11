@@ -1,5 +1,5 @@
 import "./HeroSection.css"
-import three_colored_spheres from "../assets/three_colored_spheres.png"
+import three_colored_spheres from "../assets/three_colored_spheres.webp"
 import { Link } from "react-router-dom"
 
 export const HeroSection = () => {

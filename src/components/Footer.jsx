@@ -1,4 +1,4 @@
-import three_gradient_spheres from "../assets/three_gradient_spheres.png"
+import three_gradient_spheres from "../assets/three_gradient_spheres.webp"
 
 export const Footer = () => {
     return (
