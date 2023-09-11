@@ -30,7 +30,12 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
         'anton': ['Anton', 'sans-serif'],
-        'krona': ['Krona One', 'sans-serif']
+        'krona': ['Krona One', 'sans-serif'],
+        'notable': ['Notable', 'sans-serif'],
+        'bungee': ['Bungee Shade', 'cursive'],
+        'racing': ['Racing Sans One', 'cursive'],
+        'bebas': ['Bebas Neue', 'sans-serif'],
+        'seymour': ['Seymour One', 'sans-serif']
       },
     },
   },
