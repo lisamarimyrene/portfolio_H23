@@ -7,7 +7,7 @@ export const Footer = () => {
             <div className="z-0 absolute inset-y-0 left-1/2 w-px bg-purple_light transform -translate-x-1/2"></div>
             <div className="z-0 inset-y-0 w-px bg-purple_light absolute right-4 md:right-8"></div>
 
-            <div className="w-[80%] flex flex-row justify-between items-center">
+            <div className="z-10 w-[80%] flex flex-row justify-between items-center">
                 
                 <div className="ml-12 md:ml-20 text-lg">
                     <p className="z-10">Get in touch!</p>

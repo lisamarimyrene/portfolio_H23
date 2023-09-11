@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export const HeroSection = () => {
     return (
         <section className="bg-image bg-purple text-gray-light relative -mb-[0.5%] md:-mb-2 h-fit flex flex-col justify-between">
-            <div className="z-0 w-screen h-px bg-purple_light absolute top-[7vh]"></div>
+            <div className="z-0 w-screen h-px bg-purple_light absolute top-[10vh] md:top-[7vh]"></div>
             <div className="z-0 h-screen w-px bg-purple_light absolute left-4 md:left-8"></div>
             <div className="z-0 absolute inset-y-0 left-1/2 w-px bg-purple_light transform -translate-x-1/2"></div>
             <div className="z-0 h-screen w-px bg-purple_light absolute right-4 md:right-8"></div>
@@ -19,14 +19,14 @@ export const HeroSection = () => {
                         <path className="path1" d="M41.8182 0.993164H4.18182C1.87136 0.993164 0 2.85186 0 5.14668V42.5284C0 44.8232 1.87136 46.6819 4.18182 46.6819H41.8182C44.1286 46.6819 46 44.8232 46 42.5284V5.14668C46 2.85186 44.1286 0.993164 41.8182 0.993164ZM14.5402 38.3748H8.372V18.6622H14.5402V38.3748ZM11.3934 15.8441C9.40491 15.8441 7.797 14.2429 7.797 12.272C7.797 10.3012 9.407 8.7021 11.3934 8.7021C13.3755 8.7021 14.9876 10.3033 14.9876 12.272C14.9876 14.2429 13.3755 15.8441 11.3934 15.8441ZM37.6447 38.3748H31.4807V28.7885C31.4807 26.502 31.4389 23.5613 28.2754 23.5613C25.0658 23.5613 24.5724 26.0514 24.5724 28.6224V38.3748H18.4084V18.6622H24.3256V21.3558H24.4093C25.2331 19.8065 27.2445 18.1721 30.245 18.1721C36.4905 18.1721 37.6447 22.255 37.6447 27.5632V38.3748Z" fill="#FFB1CB" />
                     </svg></a>
                 </div>
-                <ul className="flex flew-row absolute end-5 mr-6 md:mr-11 mt-5 w-40 justify-between text-pink">
+                <ul className="flex flew-row absolute end-5 mr-5 md:mr-14 mt-[1.9rem] md:mt-5 w-40 justify-between text-pink">
                     <Link to="/"><li className="hover:text-gray-light">home</li></Link>
                     <Link to="/skills"><li className="hover:text-gray-light">skills</li></Link>
                     <a href="mailto:lisammyrene@outlook.com"><li className="hover:text-gray-light">contact</li></a>
                 </ul>
             </nav>
 
-            <div className="flex items-center flex-grow pt-16 md:pt-12 pb-12 h-[18rem] md:h-fit ">
+            <div className="flex items-center flex-grow mt-[6rem] md:mt-12 pb-12 h-[16rem] md:h-fit ">
                 <p className="webdev hover:text-yellow flex justify-start ml-8 md:ml-20 self-start text-base md:text-2xl">Web Developer</p>
                 <img className="w-1/4 md:w-1/5 rotate-45 md:mb-14 flex mx-auto" src={three_colored_spheres} alt="Three colored spheres." />
                 <div className="flex justify-end mr-8 md:mr-16 md:mb-16 self-end text-sm md:text-xl">
