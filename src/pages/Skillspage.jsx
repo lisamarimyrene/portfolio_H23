@@ -41,14 +41,14 @@ export default function Skillspage() {
             <section className="w-screen overflow-hidden px-12 md:px-20 pb-16 md:pb-20">
                 <div className="flex flex-col md:flex-row justify-around md:pt-16">
                     <div className="md:w-[30%] pt-16 md:pt-20">
-                        <h2 className="text-purple uppercase text-3xl font-anton">Technologies</h2>
+                        <h2 className="text-purple uppercase md:text-2xl tracking-tighter font-seymour text-xl">Technologies</h2>
                         <p className="py-5 pb-10">I have learned several technologies throughout my studies and on my own. I am always eager to explore new languages and technologies, and can't wait to develop my skills and knowledge further.</p>
                         <div className="flex flex-wrap">
                             {technologiesArray.map(img => <img className="w-12 md:w-14 m-3 md:m-4" src={img} alt="dev icon" />)}
                         </div>
                     </div>
                     <div className="md:w-[30%] pt-20">
-                        <h2 className="text-purple uppercase text-3xl font-anton">Programs</h2>
+                        <h2 className="text-purple uppercase md:text-2xl  tracking-tighter font-seymour text-xl">Programs</h2>
                         <p className="pt-5 pb-10">When developing, I'm using VSCode and several other tools. Figma is a program I enjoy alot for creating lo-fi and hi-fi wireframes of my projects. When working in teams, Miro is a great tool for brainstorming ideas and such.</p>
                         <div className="flex flex-wrap">
                             {programsArray.map(img => <img className="w-12 md:w-14 m-3 md:m-4" src={img} alt="dev icon" />)}
